@@ -12,5 +12,5 @@ for i in listdir(moviefolder):
 	title = i.split('.')
 	
 	if string.lower() == title[0].lower():
-    vlc = '/Applications/VLC.app/Contents/MacOS/VLC'
+   		vlc = '/Applications/VLC.app/Contents/MacOS/VLC'
 		call(['open', '-a', vlc, path.join(moviefolder, i)])
